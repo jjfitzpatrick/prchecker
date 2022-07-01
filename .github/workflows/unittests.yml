@@ -20,5 +20,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2.1.0
       - name: Run unit tests
-        working-directory: .\Source\ConsoleApp.Tests
+        working-directory: Source\ConsoleApp.Tests
         run: dotnet test
