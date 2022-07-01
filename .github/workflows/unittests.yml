@@ -21,4 +21,5 @@ jobs:
       - uses: actions/checkout@v2.1.0
       - name: Run unit tests
         working-directory: ./Source/ConsoleApp/ConsoleApp.Tests
+        pull-request-example
         run: dotnet test
