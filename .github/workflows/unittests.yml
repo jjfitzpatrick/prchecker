@@ -19,5 +19,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2.1.0
-      - working-directory: /Source/ConsoleApp.Tests
-      - run: dotnet test
+      - name: Run unit tests
+        working-directory: /Source/ConsoleApp.Tests
+        run: dotnet test
