@@ -15,7 +15,7 @@ namespace ConsoleApp
     {
         public string GetHelloWorld()
         {
-            return "Hello World!";
+            return "I hope I don't fail my unit test!";
         }
     }
 }
